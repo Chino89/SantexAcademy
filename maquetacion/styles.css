@@ -418,6 +418,10 @@ div.container>a:link {
     font-weight: 700;
 }
 
+div.container>a:link:hover {
+    color: #fff;
+}
+
 /* Media Queryes */
 
 @media (width >=2500px) {
