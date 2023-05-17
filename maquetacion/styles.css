@@ -54,10 +54,14 @@ button:hover {
     color: #fff;
 }
 
+div#navbar-left {
+    cursor: pointer;
+}
 
 div#navbar-right {
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 i.fa-brands {
