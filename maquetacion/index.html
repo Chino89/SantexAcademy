@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,40 +9,299 @@
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600:700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e708b08ac0.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body style="margin: 0;">
-    <div id="navbar" style="display: flex; border-bottom: 1px solid gray; padding: 14px 800px; justify-content: space-between;">
-        <div id="navbar-left">
-            <img src="technology-with-purpose.svg">
-        </div>
-        <div id="navbar-right" style="display: flex; align-items: center;">
-            <p>Nosotros</p>
-            <p>Programas</p>
-            <p>Capacitaciones</p>
-            <p>Alianzas</p>
-            <p>Contacto</p>
-            <button>Sumate +</button>
+
+<body>
+    <!-- Navbar -->
+    <div id="navbar">
+        <div id="navbar-Content">
+            <div id="navbar-left">
+                <img src="./src/technology-with-purpose.svg" alt="navbar-twp-logo">
+            </div>
+            <div id="navbar-right">
+                <p class="navBar-link">Nosotros</p>
+                <p class="navBar-link">Programas</p>
+                <p class="navBar-link">Capacitaciones</p>
+                <p class="navBar-link">Alianzas</p>
+                <p class="navBar-link">Contacto</p>
+                <button>Sumate +</button>
+                <div id="navbar-icons">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
         </div>
     </div>
-    <div id="contact-form">
-        <form style="margin: 0 300px;" action="">
-            <div>
-                <input type="text" placeholder="Nombre y Apellido">
-                <input type="email" placeholder="Email">
-                <select name="" id="">
-                    <option value="">Programas</option>
-                    <option value="">Capacitaciones</option>
-                </select>
+
+    <main>
+        <!-- Section 1 -->
+        <div id="section-1">
+            <div id="section1-content">
+                <h1>Somos una Fundación dedicada a mejorar la calidad de vida de las personas y su entorno, a través de
+                    la
+                    tecnología.</h1>
             </div>
-            <div>
-                <textarea name="" cols="30" rows="10"></textarea>
+            <div id="buttons">
+                <button class="contact-button">Contactanos <i class="fa-solid fa-arrow-right-long"></i></button>
+                <button class="callToAction">Sumate <i class="fa-regular fa-plus"></i></button>
             </div>
-            <div>
-                <button>Enviar</button>
+        </div>
+        <!-- Section 2 -->
+        <div id="section-2">
+            <div id="section2-Content">
+                <div id="section2-left">
+                    <h2>. Impacto</h2>
+                    <p id="left-Content">Buscamos construir alianzas y fortalecer vínculos para generar una
+                        transformación
+                        real
+                        en la comunidad. Trabajamos para acercar la tecnología innovadora y disruptiva del sector
+                        privado
+                        hacia
+                        el sector social.</p>
+                </div>
+                <div id="section2-right">
+                    <div class="right-Content">
+                        <div class="counter">58</div>
+                        <div class="counter-content">Localidades</div>
+                    </div>
+                    <div class="right-Content">
+                        <div class="counter"><i class="fa-regular fa-plus"></i>50</div>
+                        <div class="counter-content">Mentores</div>
+                    </div>
+                    <div class="right-Content">
+                        <div class="counter">301</div>
+                        <div class="counter-content">Principiantes</div>
+                    </div>
+                </div>
             </div>
-        </form>
-    </div>
+        </div>
+        <!-- Section 3 -->
+        <div id="section3">
+            <div id="twp-photo"> </div>
+        </div>
+        <!-- Section 4 -->
+        <div id="section4">
+            <div class="sectionTitle">
+                <h2>. Programas</h2>
+            </div>
+            <div class="typeA">
+                <div class="typeA-left">
+                    <img class="section4-img-A" src="./src/Section4-1.jpg" alt="section4-1">
+                </div>
+                <div class="typeA-right">
+                    <img src="./src/xacademy.svg" alt="xAcademy-logo">
+                    <p class="section4-content">xAcademy es un programa de formación en tecnología llevado adelante por
+                        la
+                        Fundación Tecnología
+                        con Propósito junto a Santex que busca promover un cambio positivo en la comunidad a través de
+                        la educación en IT, apuntando a lograr la inserción laboral de personas en el mundo tecnológico.
+                    </p>
+                    <button class="section4-info">Mas info <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+            </div>
+            <div class="typeB">
+                <div class="typeB-left">
+                    <h4>Robótica educativa: la tecnología del futuro</h4>
+                    <p class="section4-content">Durante el curso, los alumnos y alumnas a través de la robótica
+                        desarrollan
+                        la curiosidad, el
+                        autodidactismo y las habilidades blandas necesarias para afrontar la revolución tecnológica del
+                        siglo
+                        XXI.</p>
+                    <button class="section4-info">Mas info <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+                <div class="typeB-right">
+                    <img class="section4-img-B" src="./src/Section4-2.jpg" alt="section4-2">
+                </div>
+            </div>
+            <div class="sectionTitle">
+                <h2>. Capacitaciones</h2>
+            </div>
+            <div class="typeA">
+                <div class="typeA-left">
+                    <img class="section4-img-A" src="./src/Section4-3.jpg" alt="section4-3">
+                </div>
+                <div class="typeA-right">
+                    <h4>Estafas virtuales: ¿cómo protegernos?</h4>
+                    <p class="section4-content">Los canales de comunicación a través de medios digitales cobraron gran
+                        protagonismo a partir de la
+                        pandemia. Al mismo tiempo, se perfeccionan cada vez más rápido las modalidades de estafas y
+                        fraudes
+                        virtuales. En esta capacitación vas a aprender diferentes tips y consejos útiles para navegar de
+                        manera más segura.</p>
+                    <button class="section4-info">Mas info <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+            </div>
+            <div class="typeB">
+                <div class="typeB-left">
+                    <h4>Seguridad informática para infancias</h4>
+                    <p class="section4-content">¿Navegamos seguros en internet? La propuesta es una charla para niños y
+                        niñas donde se brindan
+                        herramientas de seguridad y autocuidado digital.</p>
+                    <button class="section4-info">Mas info <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+                <div class="typeB-right">
+                    <img class="section4-img-B" src="./src/Section4-4.jpg" alt="section4-4">
+                </div>
+            </div>
+        </div>
+        <!-- Section 5 -->
+        <div id="section5">
+            <div id="section5Content">
+                <div id="section5Title">
+                    <h2>. Equipo</h2>
+                </div>
+                <div class="team">
+                    <div class="card">
+                        <img src="./src/twp-juan.png" alt="Juan Santiago">
+                        <div class="data">
+                            <h5>Juan Santiago</h5>
+                            <p>Presidente</p>
+                            <div class="member-linkedin">
+                                <i class="member fa-brands fa-linkedin-in"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./src/twp-walter.png" alt="Walter Abrigo">
+                        <div class="data">
+                            <h5>Walter Abrigo</h5>
+                            <p>Secretario</p>
+                            <div class="member-linkedin">
+                                <i class="member fa-brands fa-linkedin-in"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./src/twp-gabriela.png" alt="Gabriela Fernandez">
+                        <div class="data">
+                            <h5>Gabriela Fernandez</h5>
+                            <p>Comisión Directiva</p>
+                            <div class="member-linkedin">
+                                <i class="member fa-brands fa-linkedin-in"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./src/twp-gabriel.png" alt="Gabriel Dubini">
+                        <div class="data">
+                            <h5>Gabriel Dubini</h5>
+                            <p>Tesorero</p>
+                            <div class="member-linkedin">
+                                <i class="member fa-brands fa-linkedin-in"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./src/twp-florencia.png" alt="Florencia D’Agostino">
+                        <div class="data">
+                            <h5>Florencia D’Agostino</h5>
+                            <p>Dirección Ejecutiva</p>
+                            <div class="member-linkedin">
+                                <i class="member fa-brands fa-linkedin-in"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./src/twp-celeste.png" alt="Celeste Torresi">
+                        <div class="data">
+                            <h5>Celeste Torresi</h5>
+                            <p>Comisión Directiva</p>
+                            <div class="member-linkedin">
+                                <i class="member fa-brands fa-linkedin-in"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./src/twp-lucia.png" alt="Lucia Jaimez">
+                        <div class="data">
+                            <h5>Lucia Jaimez</h5>
+                            <p>Directora Academy</p>
+                            <div class="member-linkedin">
+                                <i class="member fa-brands fa-linkedin-in"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./src/agustin-chino.png" alt="Agustín Chino">
+                        <div class="data">
+                            <h5>Agustín Chino</h5>
+                            <p>Coord. Área Inclusión Social</p>
+                            <div class="member-linkedin">
+                                <i class="member fa-brands fa-linkedin-in"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./src/enzo-dotto.png" alt="Enzo Dotto">
+                        <div class="data">
+                            <h5>Enzo Dotto</h5>
+                            <p>Relaciones Institucionales</p>
+                            <div class="member-linkedin">
+                                <i class="member fa-brands fa-linkedin-in"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- Section 6 -->
+        <div id="section6">
+            <div id="sectionTitle">
+                <h2>. Alianzas</h2>
+            </div>
+            <div class="slider-container">
+                <div class="prev"><i class="fa-solid fa-chevron-left"></i></div>
+                <div id="container">
+                    <div id="slide">
+                        <img src="./src/alianza-att-400x151.png" alt="Alianza 1">
+                        <img src="./src/alianza-banco-alimentos-cordoba-400x151.png" alt="Alianza 2">
+                        <img src="./src/alianza-banco-galicia-400x151.png" alt="Alianza 3">
+                        <img src="./src/alianza-fundacion-scrum-400x151.png" alt="Alianza 4">
+                        <img src="./src/alianza-grupo-inteligencia-educativa-400x151.png" alt="Alianza 5">
+                        <img src="./src/alianza-jesus-maria-400x151.png" alt="Alianza 6">
+                        <img src="./src/alianza-municipalidad-concordia-400x151.png" alt="Alianza 7">
+                        <img src="./src/alianza-municipalidad-morteros-1-400x151.png" alt="Alianza 8">
+                        <img src="./src/alianza-naranja-400x151.png" alt="Alianza 9">
+                        <img src="./src/alianza-santex-400x151.png" alt="Alianza 10">
+                    </div>
+                </div>
+                <div class="next"><i class="fa-solid fa-chevron-right"></i></div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer">
+            <div id="footer-container">
+                <div class="container">
+                    <img src="./src/technology-with-purpose-white.svg" alt="footer-twp-logo">
+                </div>
+                <div id="p-container">
+                    <p>Trabajamos para acercar la tecnología innovadora y disruptiva del sector privado hacia el sector
+                        social.</p>
+                </div>
+                <div class="container">
+                    <a href="http://nosotros">NOSOTROS</a>
+                    <a href="http://contacto">CONTACTO</a>
+                </div>
+                <div class="container">
+                    <a href="http://programas">PROGRAMAS</a>
+                    <a href="http://capacitaciones">CAPACITACIONES</a>
+                </div>
+                <div class="container">
+                    <div><i class="fa-brands fa-instagram"></i> INSTAGRAM</div>
+                    <div><i class="fa-brands fa-linkedin-in"></i> LINKEDIN</div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
